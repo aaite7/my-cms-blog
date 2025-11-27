@@ -1,0 +1,21 @@
+backend:
+  name: github
+  # ！！！使用你的新仓库名！！！
+  repo: aaite7/my-cms-blog
+  branch: main
+  auth_type: pkce
+  # 我们稍后会创建一个新的 App ID
+  app_id: NEW_CLIENT_ID_WILL_GO_HERE
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "pages"
+    label: "页面管理"
+    files:
+      - label: "首页"
+        name: "homepage"
+        file: "index.html"
+        fields:
+          - {label: "首页完整代码", name: "body", widget: "code", default_language: "html"}
