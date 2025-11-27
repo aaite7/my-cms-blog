@@ -5,7 +5,7 @@ backend:
   branch: main
   auth_type: pkce
   # 我们稍后会创建一个新的 App ID
-  app_id: NEW_CLIENT_ID_WILL_GO_HERE
+  app_id: Ov23liXM28ZZimcxTxck
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
